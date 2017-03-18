@@ -1,0 +1,136 @@
+body {
+	text-align: center;
+	background-color: #eeeeee;
+}
+
+h1{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+	font-size: 50px;
+	color: #99d1e2;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	padding: 0px;
+}
+
+h2{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+	color: #fb6068;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	padding: 0px;
+}
+
+h3{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 50px;
+	color: #ffffff;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	padding: 0px;
+}
+
+h4{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	color: #fb6068;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	padding: 0px;
+}
+
+h5{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 14px;
+	color: #313131;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 0px;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	color: #313131;
+}
+
+a {
+	text-decoration: none;
+}
+
+.img-circle {
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+.img-rectangle {
+	width: 300px;
+    border-radius: 0%;
+    display: block;
+    margin: auto;
+}
+
+.img-socialmedia {
+	height: 30px;
+    border-radius: 0%;
+    margin: 10px;
+}
+
+.div-presentation {
+	width: 300px;
+    border-radius: 0%;
+    display: block;
+    margin: auto;
+}
+
+.div-whitebackground {
+	background-color: #ffffff;
+	padding: 10px; 
+}
+
+.div-work {
+    background-image: url("images/bild1.jpg");
+    padding-top:50%;
+    padding-bottom:50%;
+}
+
+.div-education {
+    background-image: url("images/bild2.jpg");
+    padding-top:50%;
+    padding-bottom:50%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+td {
+    text-align: left;
+    vertical-align: top;
+    width: 70%;
+    margin-top: 0px;
+}
+
+.td-right {
+	text-align: right;
+    vertical-align: top;
+    font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	color: #fb6068;
+	padding: 10px;
+	width: 30%;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
