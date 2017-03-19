@@ -3,7 +3,7 @@ body {
 	background-color: #eeeeee;
 }
 
-h1{
+h1 {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 900;
 	font-size: 50px;
@@ -13,7 +13,7 @@ h1{
 	padding: 0px;
 }
 
-h2{
+h2 {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
 	font-size: 30px;
@@ -23,17 +23,16 @@ h2{
 	padding: 0px;
 }
 
-h3{
+h3 {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 700;
-	font-size: 50px;
+	font-size: 40px;
 	color: #ffffff;
-	margin-top: 10px;
-	margin-bottom: 0px;
-	padding: 0px;
+	display: table-cell;
+    vertical-align: middle;
 }
 
-h4{
+h4 {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 700;
 	font-size: 20px;
@@ -43,7 +42,7 @@ h4{
 	padding: 0px;
 }
 
-h5{
+h5 {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
 	font-style: italic;
@@ -72,13 +71,6 @@ a {
     margin: auto;
 }
 
-.img-rectangle {
-	width: 300px;
-    border-radius: 0%;
-    display: block;
-    margin: auto;
-}
-
 .img-socialmedia {
 	height: 30px;
     border-radius: 0%;
@@ -97,16 +89,38 @@ a {
 	padding: 10px; 
 }
 
+.div-whitebackground p{
+	text-align: left; 
+}
+
+.div-rectangleimage {
+    display: table;
+    padding-bottom: 20px;
+}
+
+.div-rectangleimage img{
+    display: table;
+    size: 50%;
+}
+
+.div-pictureheading {
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+	height: 150px;
+	display: table;	
+}
+
 .div-work {
     background-image: url("images/bild1.jpg");
-    padding-top:50%;
-    padding-bottom:50%;
 }
 
 .div-education {
     background-image: url("images/bild2.jpg");
-    padding-top:50%;
-    padding-bottom:50%;
+}
+
+.div-license {
+    background-image: url("images/bild3.jpg");
 }
 
 table {
@@ -120,6 +134,7 @@ td {
     vertical-align: top;
     width: 70%;
     margin-top: 0px;
+    padding-right: 30px;
 }
 
 .td-right {
@@ -129,8 +144,24 @@ td {
 	font-weight: 700;
 	font-size: 20px;
 	color: #fb6068;
-	padding: 10px;
+	padding-top: 10px;
+	padding-right: 20px;
 	width: 30%;
 }
 
 tr:nth-child(even){background-color: #f2f2f2}
+	
+.responsive-image {
+	width: 100%;
+}
+
+@media only screen and (min-width: 760px){
+	.div-whitebackground {
+		float: left;
+		height: 600px;
+		width: 33%;
+		padding: 20px;
+		box-sizing: border-box;
+		text-align: left;
+	}
+}
