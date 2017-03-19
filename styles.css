@@ -86,7 +86,11 @@ a {
 .img-rectangle {
     display: inline-block;
     vertical-align: middle;
-    max-width: 100%;
+    max-width: 80%;
+}
+
+.img-merit {
+    max-width: 50%;
 }
 
 .div-presentation {
@@ -157,14 +161,29 @@ td {
 	color: #fb6068;
 	padding-top: 10px;
 	padding-right: 20px;
+	padding-left: 20px;
 	width: 30%;
 }
 
-tr:nth-child(even){background-color: #f2f2f2}
-	
-.responsive-image {
-	width: 100%;
+.td-right-merit {
+	text-align: right;
+    vertical-align: middle;
+    font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	color: #fb6068;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	width: 30%;
 }
+
+.td-right-merit {
+    vertical-align: center;
+    max-width: 50%;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
 
 @media only screen and (min-width: 760px){
 	.div-whitebackground {
