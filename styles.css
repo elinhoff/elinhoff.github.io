@@ -83,6 +83,12 @@ a {
     margin: 10px;
 }
 
+.img-rectangle {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+}
+
 .div-presentation {
 	width: 300px;
     border-radius: 0%;
@@ -100,8 +106,12 @@ a {
 }
 
 .div-rectangleimage {
-    display: table;
+	height: 100px;
     padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .div-pictureheading {
@@ -159,10 +169,14 @@ tr:nth-child(even){background-color: #f2f2f2}
 @media only screen and (min-width: 760px){
 	.div-whitebackground {
 		float: left;
-		height: 600px;
+		height: 460px;
 		width: 33%;
 		padding: 20px;
 		box-sizing: border-box;
 		text-align: left;
+	}
+
+	.img-rectangle {
+    max-width: 100%;
 	}
 }
