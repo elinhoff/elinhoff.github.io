@@ -113,15 +113,15 @@ a {
 }
 
 .div-work {
-    background-image: url("Images/bild1.jpg");
+    background-image: url("./Images/bild1.jpg");
 }
 
 .div-education {
-    background-image: url("Images/bild2.jpg");
+    background-image: url("./Images/bild2.jpg");
 }
 
 .div-license {
-    background-image: url("Images/bild3.jpg");
+    background-image: url("./Images/bild3.jpg");
 }
 
 table {
