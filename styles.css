@@ -77,6 +77,12 @@ a {
     margin: 10px;
 }
 
+.img-work {
+	height: 30px;
+    border-radius: 0%;
+    margin: 10px;
+}
+
 .div-presentation {
 	width: 300px;
     border-radius: 0%;
@@ -98,11 +104,6 @@ a {
     padding-bottom: 20px;
 }
 
-.div-rectangleimage img{
-    display: table;
-    size: 50%;
-}
-
 .div-pictureheading {
     background-repeat: no-repeat;
     background-position: center;
@@ -112,15 +113,15 @@ a {
 }
 
 .div-work {
-    background-image: url("images/bild1.jpg");
+    background-image: url("Images/bild1.jpg");
 }
 
 .div-education {
-    background-image: url("images/bild2.jpg");
+    background-image: url("Images/bild2.jpg");
 }
 
 .div-license {
-    background-image: url("images/bild3.jpg");
+    background-image: url("Images/bild3.jpg");
 }
 
 table {
